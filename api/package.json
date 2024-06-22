@@ -1,0 +1,26 @@
+{
+  "name": "project_planner",
+  "version": "1.0.0",
+  "description": "a project planning application",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyasibhagwat6/project_planner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreyasibhagwat6/project_planner/issues"
+  },
+  "homepage": "https://github.com/shreyasibhagwat6/project_planner#readme",
+  "dependencies": {
+    "@prisma/client": "^5.15.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "prisma": "^5.15.1"
+  }
+}
